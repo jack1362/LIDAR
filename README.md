@@ -2,6 +2,10 @@
 
 This is a performant, realistic LiDAR (Light Detection and Ranging) scanning system built for Roblox Studio with organic scanning patterns, spatial optimization, and visual effects
 
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWE4eXJldzNkb3FmNHBjNmIwZzVkY200a2psajQwd2F4cmE3aHM1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QBLhbx3XmkOvxvt3FN/giphy.gif" alt="3D A* Pathfinding Demo" width="800" />
+</div>
+
 ## Features
 
 ### **Realistic Scanning**
