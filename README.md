@@ -70,7 +70,7 @@ tool.Deactivated:Connect(function()
 end)
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Customize the system by modifying these constants:
 
