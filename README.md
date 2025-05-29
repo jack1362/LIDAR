@@ -4,8 +4,8 @@ This is a performant, realistic LiDAR (Light Detection and Ranging) scanning sys
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWE4eXJldzNkb3FmNHBjNmIwZzVkY200a2psajQwd2F4cmE3aHM1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QBLhbx3XmkOvxvt3FN/giphy.gif" alt="3D A* Pathfinding Demo" width="1200" />
-  <img src="https://github.com/user-attachments/assets/6b157e49-7931-4a29-85d5-1f40a5b8a9db" width="75%" />
-  <img src="https://github.com/user-attachments/assets/f0e8e167-0ec2-4ce8-8eb4-ea4c356bc2df" width="75%" />
+  <img src="https://github.com/user-attachments/assets/6b157e49-7931-4a29-85d5-1f40a5b8a9db" width="70%" />
+  <img src="https://github.com/user-attachments/assets/f0e8e167-0ec2-4ce8-8eb4-ea4c356bc2df" width="70%" />
 </div>
 
 
