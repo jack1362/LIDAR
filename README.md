@@ -112,7 +112,7 @@ local possiblePartColors = {
 
 Each object gets a consistent color with slight variation.
 
-## 🔧 API Reference
+## API Reference
 
 ### Core Methods
 
