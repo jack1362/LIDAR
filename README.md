@@ -1,4 +1,4 @@
-# Lua LiDAR System for Roblox
+# Lua LiDAR System
 
 This is a performant, realistic LiDAR (Light Detection and Ranging) scanning system built for Roblox Studio with organic scanning patterns, spatial optimization, and visual effects
 
@@ -16,16 +16,15 @@ This is a performant, realistic LiDAR (Light Detection and Ranging) scanning sys
 - **Organic scan patterns** with multi-layered noise simulation
 - **Variable range detection**
 - **Cone-based scanning** with configurable angle spread
-- **Distance-based particle intensity**
 
-### **Performance Optimized**  
+### **Performance Optimized**
 - **Spatial hashing** for efficient collision detection
 - **Frame-rate independent** scanning
 - **Automatic cleanup** of old particles
 - **Memory efficient** particle management
 
 ### **Visual Excellence**
-- **Procedural color variation** for realistic particle diversity  
+- **Procedural color variation** for better visuals
 - **Glowing particles** with customizable brightness
 - **Smooth fade animations** for particle lifecycle
 
@@ -112,7 +111,7 @@ local possiblePartColors = {
 
 Each object gets a consistent color with slight variation.
 
-## API Reference
+## Method Reference
 
 ### Core Methods
 
@@ -135,10 +134,10 @@ Each object gets a consistent color with slight variation.
 ## Technical Details
 
 ### Spatial Hashing
-The system uses a 3D spatial hash grid for O(1) collision detection, preventing particle overlap while maintaining performance at scale.
+The system uses a 3D spatial hash grid for O(1) collision detection, preventing particle overlap while maintaining performance.
 
 ### Organic Scanning Pattern
-Multi-layered noise functions create realistic, non-uniform scanning behavior:
+Multi-layered noise functions create non-uniform scanning behavior:
 ```lua
 local noiseX = math.sin(time * 0.7) * 0.3 + math.sin(time * 1.3) * 0.2 + math.sin(time * 2.1) * 0.1
 local noiseY = math.sin(time * 0.9) * 0.3 + math.sin(time * 1.7) * 0.2 + math.sin(time * 2.3) * 0.1
