@@ -14,6 +14,7 @@ local RAYS_PER_FRAME = 4
 local PARTICLE_LIFETIME = 45
 local PARTICLE_FADE_TIME = 8
 local SCAN_INTERVAL = 0.03
+local HASH_CELL_SIZE = 2
 
 local PARTICLE_SIZE = 0.05
 local PARTICLE_BRIGHTNESS = 0.1
@@ -111,7 +112,6 @@ end
 
 -- // Spatial hashing for collision detection //
 local spatialHash = {}
-local HASH_CELL_SIZE = 2
 
 function LIDAR.GetHashKey(position)
 	local x = math.floor(position.X / HASH_CELL_SIZE)
